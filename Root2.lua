@@ -25,6 +25,6 @@ PlayerSection:NewButton("No Clip (one time button)", "You can go through walls."
     loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/noclip-string-setup/main/.lua"))()
 end)
 
-OtherSection:NewButton("FLY GUI V3", "Fly like a fly!", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+PlayerSection:NewButton("Fling GUI [v1.0.4]", "Go to sleep", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
